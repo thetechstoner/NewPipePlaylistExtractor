@@ -70,7 +70,7 @@ playlists-piped.json to freetube-playlists.db
 - python3 playlists-convert-piped.py   (playlists.csv to playlists-piped.json)
 - python3 playlists-convert-freetube.py  
 (playlists.csv to freetube-playlists.db)
-- python3 playlists-convert-piped-to-freetube.py  
+- python3 playlists-convert-piped-to-freetube.py    
 (playlists-piped.json to freetube-playlists.db)
 - python3 playlists-convert-freetube-to-piped.py
 (freetube-playlists.db to playlists-piped.json)
