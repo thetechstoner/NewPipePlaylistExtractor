@@ -55,7 +55,7 @@ The script supports the following codecs:
 ## Dependencies
 -  ``pip3 install pytubefix db-sqlite3 pydub audioop-lts yt_dlp``
 -  ``sudo apt install ffmpeg``
-[pytubefix](https://pypi.org/project/pytubefix/) [db-sqlite3](https://pypi.org/project/db-sqlite3/)
+- [pytubefix](https://pypi.org/project/pytubefix/) [db-sqlite3](https://pypi.org/project/db-sqlite3/)
 [pydub](https://pypi.org/project/pydub/)
 [ffmpeg](https://ffmpeg.org/)
 - The codec you want to download has to be installed on your machine
