@@ -13,7 +13,6 @@ When you create a playlist in NewPipe it is not saved as a YouTube playlist and 
 
 [Stargazers over time](https://starchart.cc/Quasolaris/NewPipePlaylistExtractor)
 
-
 ### Note: To use script on Windows or Android please see instructions below
 ### Note: MacOS users, you can follow the Linux guide
 
@@ -28,23 +27,21 @@ When you create a playlist in NewPipe it is not saved as a YouTube playlist and 
 8. [GUI](https://github.com/Quasolaris/NewPipePlaylistExtractor#gui)
 9. [Errors and Troubleshooting](https://github.com/Quasolaris/NewPipePlaylistExtractor#errors-and-troubleshooting)
 
-
 ## Features
 - Download all playlists with chosen audio codec
 - Downloads single playlist with chosen audio codec
 - Export playlists as CSV file
 - playlists.csv to playlists-piped.json
 - playlists.csv to freetube-playlists.db
+- playlists.csv to grayjay-export.zip
+- grayjay-export.zip to freetube-playlists.db
 - playlists-piped.json to freetube-playlists.db
 - freetube-playlists.db to playlists-piped.json
-- playlists.csv to grayjay-export.zip
 - freetube-playlists.db to grayjay-export.zip
-- grayjay-export.zip to freetube-playlists.db
 - Export playlists as a TXT file (Format: "Playlist title" \n "URLs")
 - Export playlists as a Markdown file
 - Export playlists as a M3U8 file 
 - Output is coloured (Because colours are fun!)
-
 
 ## Codecs
 The script supports the following codecs:
@@ -79,9 +76,9 @@ The script supports the following codecs:
 - python3 playlists-convert-grayjay.py
 (playlists.csv to grayjay-export.zip)
 - python3 playlists-convert-freetube-to-grayjay.py
-(freetube-playlists.db to grayjay-export.zip)
+-(freetube-playlists.db to grayjay-export.zip)
 - python3 playlists-convert-grayjay-to-freetube.py
-(grayjay-export.zip to freetube-playlists.db)
+-(grayjay-export.zip to freetube-playlists.db)
 - Choose action
 - Follow instructions
 - To update playlists just repeat with new .db or .zip file. Already downloaded files will be ignored
