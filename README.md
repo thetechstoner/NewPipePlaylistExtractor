@@ -76,9 +76,9 @@ The script supports the following codecs:
 - python3 playlists-convert-grayjay.py
 (playlists.csv to grayjay-export.zip)
 - python3 playlists-convert-freetube-to-grayjay.py
--(freetube-playlists.db to grayjay-export.zip)
+(freetube-playlists.db to grayjay-export.zip)
 - python3 playlists-convert-grayjay-to-freetube.py
--(grayjay-export.zip to freetube-playlists.db)
+(grayjay-export.zip to freetube-playlists.db)
 - Choose action
 - Follow instructions
 - To update playlists just repeat with new .db or .zip file. Already downloaded files will be ignored
