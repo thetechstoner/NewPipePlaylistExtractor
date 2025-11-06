@@ -68,15 +68,15 @@ The script supports the following codecs:
 - *
 - python3 freetube-convert-playlists.py freetube-playlists.db playlists.csv
 - python3 grayjay-convert-playlists.py grayjay-export.zip playlists.csv
+- python3 piped-convert-playlists.py playlists-piped.json playlists.csv
 - python3 newpipe-convert-playlists.py newpipe.db playlists.csv
 - python3 newpipe-convert-playlists.py NewPipeData.zip playlists.csv
 - python3 newpipedb-export-csv.py newpipe.db output-csv-folder
-- python3 piped-convert-playlists.py playlists-piped.json playlists.csv
 - *
 - python3 playlists-convert-freetube.py playlists.csv freetube-playlists.db
 - python3 playlists-convert-grayjay.py playlists.csv grayjay-export.zip
-- python3 playlists-convert-newpipe.py NewPipeData-Zip-Template.zip playlists.csv NewPipeData.zip
 - python3 playlists-convert-piped.py playlists.csv playlists-piped.json
+- python3 playlists-convert-newpipe.py NewPipeData-Zip-Template.zip playlists.csv NewPipeData.zip
 
 ## Linux
 Install the dependencies and you are good to go.
