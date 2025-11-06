@@ -31,13 +31,11 @@ When you create a playlist in NewPipe it is not saved as a YouTube playlist and 
 - Download all playlists with chosen audio codec
 - Downloads single playlist with chosen audio codec
 - Export playlists as CSV file
-- playlists.csv to playlists-piped.json
-- playlists.csv to freetube-playlists.db
-- playlists.csv to grayjay-export.zip
 - Export playlists as a TXT file (Format: "Playlist title" \n "URLs")
 - Export playlists as a Markdown file
 - Export playlists as a M3U8 file 
 - Output is coloured (Because colours are fun!)
+- playlists.csv to freetube-playlists.db,grayjay-export.zip,playlists-piped.json or newpipedata.zip and back to playlists.csv
 
 ## Codecs
 The script supports the following codecs:
@@ -61,12 +59,6 @@ The script supports the following codecs:
 - Load it to your PC
 - Optionally, extract the newpipe.db file from it
 - Run script with path to the NewPipe data ZIP file (`python3 main.py NewPipe_<timestamp>.zip`) or the extracted newpipe.db file (`python3 main.py newpipe.db`)
-- python3 playlists-convert-piped.py  
-(playlists.csv to playlists-piped.json)
-- python3 playlists-convert-freetube.py  
-(playlists.csv to freetube-playlists.db)
-- python3 playlists-convert-grayjay.py
-(playlists.csv to grayjay-export.zip)
 - Choose action
 - Follow instructions
 - To update playlists just repeat with new .db or .zip file. Already downloaded files will be ignored
