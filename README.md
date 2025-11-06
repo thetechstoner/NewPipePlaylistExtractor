@@ -64,7 +64,8 @@ The script supports the following codecs:
 - Follow instructions
 - To update playlists just repeat with new .db or .zip file. Already downloaded files will be ignored
 - Enjoy your music!
-The playlists get saved into the /Script/Playlists folder
+- The playlists get saved into the /Script/Playlists folder
+- ****
 - python3 freetube-convert-playlists.py freetube-playlists.db playlists.csv
 - python3 grayjay-convert-playlists.py grayjay-export.zip playlists.csv
 - python3 newpipe-convert-playlists.py newpipe.db playlists.csv
