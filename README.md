@@ -36,6 +36,7 @@ When you create a playlist in NewPipe it is not saved as a YouTube playlist and 
 - Export playlists as a M3U8 file 
 - Output is coloured (Because colours are fun!)
 - playlists.csv to freetube-playlists.db,grayjay-export.zip,playlists-piped.json or newpipedata.zip and back to playlists.csv
+-only newpipe supports remote playlists private videos
 
 ## Codecs
 The script supports the following codecs:
