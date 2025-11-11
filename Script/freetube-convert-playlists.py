@@ -19,9 +19,8 @@ import sys
 def freetube_to_csv(in_db, out_csv):
     with open(in_db, "r", encoding="utf-8") as f_in, \
          open(out_csv, "w", newline="", encoding="utf-8") as f_out:
-        
         writer = csv.writer(f_out)
-        # No header to match previous CSV format
+        # No header to match CSV format
 
         for line in f_in:
             line = line.strip()
@@ -30,8 +29,13 @@ def freetube_to_csv(in_db, out_csv):
             playlist = json.loads(line)
             name = playlist.get("playlistName", "")
             videos = playlist.get("videos", [])
-            urls = [video.get("videoId") and f"https://www.youtube.com/watch?v={video.get('videoId')}" 
+            urls = [video.get("videoId") and f"https://www.youtube.com/watch?v={video.get('videoId')}"
                     for video in videos if video.get("videoId")]
+
+            # Skip empty Favorites or Watch Later playlists
+            if name in ("Favorites", "Watch Later") and not urls:
+                continue
+
             # Write playlist name and Python-style list string of video URLs
             writer.writerow([name, str(urls)])
 
