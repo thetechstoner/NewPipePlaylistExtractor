@@ -68,8 +68,8 @@ The script supports the following codecs:
 - The playlists get saved into the /Script/Playlists folder
 - *
 - python3 freetube-convert-playlists.py freetube-playlists.db playlists.csv
-- python3 grayjay-convert-playlists.py grayjay-export.zip playlists.csv
 - python3 piped-convert-playlists.py playlists-piped.json playlists.csv
+- python3 grayjay-convert-playlists.py grayjay-export.zip playlists.csv
 - python3 newpipe-convert-playlists.py newpipe.db playlists.csv
 - python3 newpipe-convert-playlists.py NewPipeData.zip playlists.csv
 - *
