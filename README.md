@@ -79,6 +79,7 @@ The script supports the following codecs:
 - python3 playlists-convert-newpipe.py NewPipeData-Zip-Template.zip playlists.csv NewPipeData.zip
 - *
 - python3 newpipedb-export-csv.py newpipe.db output-csv-folder
+- python3 structure-overview-zip.py archive.zip structure-overview.txt
 
 ## Linux
 Install the dependencies and you are good to go.
