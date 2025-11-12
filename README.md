@@ -75,8 +75,8 @@ The script supports the following codecs:
 - python3 newpipedb-export-csv.py newpipe.db output-csv-folder
 - *
 - python3 playlists-convert-freetube.py playlists.csv freetube-playlists.db
-- python3 playlists-convert-grayjay.py playlists.csv grayjay-export.zip
 - python3 playlists-convert-piped.py playlists.csv playlists-piped.json
+- python3 playlists-convert-grayjay.py Grayjay-Zip-Template.zip playlists.csv grayjay-export.zip
 - python3 playlists-convert-newpipe.py NewPipeData-Zip-Template.zip playlists.csv NewPipeData.zip
 
 ## Linux
